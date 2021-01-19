@@ -1,8 +1,0 @@
-name = "Hugo Asciinema"
-description = "Resources and shortcode to embed asciinema asciicasts"
-license = "MIT"
-licenselink = "https://gitlab.com/hybras/hugo-asciinema/-/blob/master/LICENSE"
-
-[author]
-name = "hybras"
-homepage = "https://hybras.gitlab.io"
