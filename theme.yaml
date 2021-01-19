@@ -1,0 +1,8 @@
+name: "Hugo Asciinema"
+description: "Resources and shortcode to embed asciinema asciicasts"
+license: "MIT"
+licenselink: ""
+
+author:
+  name: "hybras"
+  homepage: "https://hybras.gitlab.io"
