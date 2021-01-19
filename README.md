@@ -1,8 +1,10 @@
 # Hugo Asciinema
 
-This theme contributes a shortcode and partial to be used with other themes to embed asciicasts into your site. The asciicast file itself may be anywhere, not just locally. The css and js assets come from the player's [latest release](https://github.com/asciinema/asciinema-player/releases/latest). At the time of writing, that was [v2.6.1](https://github.com/asciinema/asciinema-player/releases/tag/v2.6.1).
+This incomplete theme contributes a shortcode and partial to be used with other themes to embed asciicasts into your site. The asciicast file itself may be anywhere, not just locally. The css and js assets come from the player's [latest release](https://github.com/asciinema/asciinema-player/releases/latest). At the time of writing, that was [v2.6.1](https://github.com/asciinema/asciinema-player/releases/tag/v2.6.1).
 
 ## Usage
+
+Copy the files of this theme (`layouts/` and `static/`). In other words, manually merge this theme into your site/theme.
 
 ### Shortcode
 
