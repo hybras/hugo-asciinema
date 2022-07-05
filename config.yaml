@@ -4,3 +4,5 @@ module:
       target: static/js/asciinema-player.min.js
     - source: node_modules/asciinema-player/dist/bundle/asciinema-player.css
       target: static/js/asciinema-player.css
+    - source: layouts
+      target: layouts
