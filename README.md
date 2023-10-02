@@ -4,7 +4,13 @@ This incomplete theme contributes a shortcode and partial to be used with other 
 
 ## Usage
 
-Copy the files of this theme (`layouts/` and `static/`). In other words, manually merge this theme into your site/theme.
+Add the following to your `hugo.yaml`.
+
+```yaml
+module:
+  imports:
+    - path: 'github.com/hybras/hugo-asciinema'
+```
 
 ### Shortcode
 
