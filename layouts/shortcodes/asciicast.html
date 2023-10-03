@@ -3,7 +3,7 @@
 {{ $src := "" }}
 
 {{ if .IsNamedParams }}
-    {{ with .Get "src" | safeURL}}{{ $src = . }}
+    {{ with .Get "src" | safeURL }}{{ $src = . }}
     {{ else }}{{ errorf $missing_src .Position }}
     {{ end }}
 {{ else }}
@@ -39,3 +39,6 @@
 {{ else }}
     <script>AsciinemaPlayer.create("{{ $src }}", document.getElementById("{{ $src }}"));</script>
 {{ end }}
+<noscript><p>
+    To run this asciicast without javascript, use <code>asciinema play {{.Get "src" | absURL }}</code> with <a href="https://asciinema.org/">Asciinema</a>
+</p></noscript>
