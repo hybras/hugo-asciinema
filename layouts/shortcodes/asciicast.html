@@ -21,18 +21,18 @@
         "{{ $src }}",
         document.getElementById("{{ $src }}"),
         {
-            {{ with .Get "cols" }} cols: {{ . }}{{ end }}
-            {{ with .Get "rows" }} rows: {{ . }}{{ end }}
-            {{ with .Get "autoplay" }} autoplay: {{ . }}{{ end }}
-            {{ with .Get "preload" }} preload: {{ . }}{{ end }}
-            {{ with .Get "loop" }} loop: {{ . }}{{ end }}
-            {{ with .Get "start-at" }} startAt: {{ . }}{{ end }}
-            {{ with .Get "speed" }} speed: {{ . }}{{ end }}
-            {{ with .Get "idle-time-limit" }} idleTimeLimit: {{ . }}{{ end }}
-            {{ if .Get "theme" }}theme: "{{ .Get "theme" }}", {{ end }}
-            {{ if .Get "poster" }}poster: "{{ .Get "poster" }}", {{ end }}
-            {{ if .Get "fit" }}fit: "{{ .Get "fit" }}", {{ end }}
-            {{ if .Get "font-size" }}fontSize: "{{ .Get "font-size" }}", {{ end }}
+            {{ with .Get "cols" }} cols: {{ . }},{{ end }}
+            {{ with .Get "rows" }} rows: {{ . }},{{ end }}
+            {{ with .Get "autoplay" }} autoplay: {{ . }},{{ end }}
+            {{ with .Get "preload" }} preload: {{ . }},{{ end }}
+            {{ with .Get "loop" }} loop: {{ . }},{{ end }}
+            {{ with .Get "start-at" }} startAt: {{ . }},{{ end }}
+            {{ with .Get "speed" }} speed: {{ . }},{{ end }}
+            {{ with .Get "idle-time-limit" }} idleTimeLimit: {{ . }},{{ end }}
+            {{ with .Get "theme" }} theme: {{ . }},{{ end }}
+            {{ with .Get "poster" }} poster: {{ . }},{{ end }}
+            {{ with .Get "fit" }} fit: {{ . }},{{ end }}
+            {{ with .Get "font-size" }} fontSize: {{ . }},{{ end }}
         }
     )
 </script>
